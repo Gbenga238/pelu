@@ -38,7 +38,7 @@ img {
 }
 .flex_elem {
   display: inline-flex;
-  height: 500px;
+  height: 400px;
   flex-basis: 30%;
   margin: 0;
   /* background-color: red; */
@@ -47,6 +47,7 @@ img {
 }
 .text{
   font-size: 1rem;
+  font-weight: 300;
   color: #fff;
 }
 @media screen and (max-width: 760px) {
