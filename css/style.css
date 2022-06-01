@@ -1,9 +1,44 @@
 h1,h2,h3,h4,h5,h6{
   border-bottom: none !important;
 }
+body {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 2rem;
+  border-radius: 6px;
+  overflow-x: hidden;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  /* background: var(--nc-bg-1); */
+  color: var(--nc-tx-2);
+  font-size: 1.03rem;
+  line-height: 1.5;
+}
 img {
   max-width: 100%;
   width: 100%;
+}
+header{
+  display: flex;
+  background: transparent !important;
+  /* width: 100vw; */
+  padding: 0px 20px;
+}
+.menu{
+  list-style: none;
+  margin-left: auto;
+  display: flex;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color
+}
+header,.menu,.menu li,.menu li{
+  align-items: center;
+}
+.menu li{
+  margin: 0 10px;
 }
 .container {
   position: absolute;
@@ -13,7 +48,7 @@ img {
   font-family: 'Gochi Hand', cursive;
   bottom: 0;
   overflow-y: scroll;
-  background: #f2f2f2 url("../assets/back.jpg") no-repeat center/cover;
+  background: #f2f2f2 url("../assets/back.gif") no-repeat center/cover;
 }
 .text,.headerText{
   display: flex;
@@ -25,7 +60,7 @@ img {
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 .flex {
   display: flex;
@@ -44,6 +79,11 @@ img {
   /* background-color: red; */
   border: 0;
   border-radius: 26px;
+}
+.flex_elem a{
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .text{
   font-size: 1rem;
