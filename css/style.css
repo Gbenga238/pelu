@@ -95,7 +95,7 @@ header,.menu,.menu li,.menu li{
     flex-direction: column;
   }
   .flex_elem {
-    flex-basis: unset;
+    flex-basis: content;
     width: 100%;
   }
   header{
@@ -103,6 +103,7 @@ header,.menu,.menu li,.menu li{
   }
   .menu{
     margin: 0 auto;
+    font-size: 1rem;
   }
   .headerText {
     font-size: 2rem;
